@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Collector</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Walter+Turncoat' rel='stylesheet' type='text/css'>
+	
+</head>
+<body>
+	<h1>MY DAUGHTERS PHOTO BOOTH</h1>
+	<div id="numberText">
+			<div id="match">Match This #:&nbsp<span id="randomNum"></span></div>
+	
+			<div id ="yourScore">
+				<div>Your Score:<span id="user_score"></span></div>
+			</div>
+	
+			<div id="scoreboard">
+				<div>Wins:<span id="wins"></span></div> 
+				<div>Losses:<span id="losses"></span></div>
+				
+			</div>
+		</div>
+		<div id="images">
+		<img src="assets/images/hailey.jpg" id="image1" class="crystal">
+		<img src="assets/images/logan.jpg" id="image2" class="crystal">
+		<img src="assets/images/abbie.jpg" id="image3" class="crystal">
+		<img src="assets/images/taylor.jpg" id="image4" class="crystal">
+	</div>
+
+	<p id="instructions">
+		Each of the pictures is worth a certain value<br><br>Click each picture and try to get to the point total that is shown up top <br><br> Each time the game starts, the value of each photo changes.
+	</p>
+	
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>
